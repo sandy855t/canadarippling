@@ -33,8 +33,14 @@
         .nav-menu a {
             color: #1a3d6d;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
         }
 
         h1 {
@@ -87,17 +93,19 @@
     </style>
 </head>
 
+    
 <body>
 
 <header class="header">
     <img src="logo-original-500.png" alt="Canada Rippling Logo" class="logo">
 
     <nav class="nav-menu">
-        <a href="index.html">Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="business.html">Business</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </nav>
+    
 </header>
 
 <h1 class="main-title">
@@ -109,7 +117,7 @@
 
     <div class="hero-text">
         <p>
-            Connecting Technology Infrastructure Across North America and Asia-Pacific
+            Connecting Data Center Infrastructure Across North America and Asia-Pacific
         </p>
     </div>
 </div>
