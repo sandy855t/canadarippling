@@ -1,59 +1,142 @@
-<nav>
-    <a href="index.html">Home</a>
-    <a href="business.html">Business</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
 <!DOCTYPE html>
 <html>
-    
 <head>
     <title>About Us</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             max-width: 1000px;
-            margin: 50px auto;
+            margin: 30px auto;
             padding: 20px;
             line-height: 1.7;
         }
 
-        nav {
-            margin-bottom: 30px;
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
         }
 
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
+        .logo {
+            width: 260px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .nav-menu a {
             color: #1a3d6d;
+            text-decoration: none;
+            font-size: 18px;
             font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
         }
 
         h1 {
             color: #1a3d6d;
         }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            color: #1a3d6d;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        .about-section {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        margin-top: 40px;
+        }
+        
+        .about-text {
+        flex: 1;
+        }
+        
+        .about-text p {
+        font-size: 20px;
+        line-height: 1.8;
+        }
+        
+        .about-image {
+        flex: 1;
+        }
+        
+        .about-image img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        display: block;
+        }
     </style>
 </head>
+
+    
 <body>
+
+<header class="header">
+    <img src="logo-original-500.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+</header>
+
+<h1 class="main-title">
+    Canada Rippling Information Technology Inc.
+</h1>
 
 <h1>About Us</h1>
 
-<p>
-Canada Rippling Information Technology Inc. is a consulting company focused on data center infrastructure, technology supply chains, and 
-    international business development. The company works with industry partners and clients across North America and Asia-Pacific, supporting 
-    technology infrastructure projects and business growth initiatives.
-<p>
+<div class="about-section">
 
-<p>
-With experience in data center design, manufacturing, and prefabricated modular data center solutions, Canada Rippling collaborates with 
-    a wide range of suppliers, engineering partners, and technology providers throughout the data center ecosystem. Our services include data center advisory, 
-    supply chain support, vendor representation, and business development.
-</p>
+<div class="about-text">
 
-<p>
-Our goal is to help organizations identify opportunities, build effective partnerships, and support long-term growth in the rapidly evolving 
-    digital infrastructure sector.</p>
+    <p>
+    Canada Rippling Information Technology Inc. is a consulting company focused on data center infrastructure, technology supply chains, and 
+        international business development. The company works with industry partners and clients across North America and Asia-Pacific, supporting 
+        technology infrastructure projects and business growth initiatives.
+    <p>
+    
+    <p>
+    With experience in data center design, manufacturing, and prefabricated modular data center solutions, Canada Rippling collaborates with 
+        a wide range of suppliers, engineering partners, and technology providers throughout the data center ecosystem. Our services include data center advisory, 
+        supply chain support, vendor representation, and business development.
+    </p>
+    
+    <p>
+    Our goal is to help organizations identify opportunities, build effective partnerships, and support long-term growth in the rapidly evolving 
+        digital infrastructure sector.
+    </p>
+
+</div>
+
+<div class="about-image">
+    <img src="Envelope.jpg" alt="about">
+</div>
 
 </body>
 </html>
