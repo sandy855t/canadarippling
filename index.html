@@ -1,70 +1,39 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        max-width: 1000px;
-        margin: 30px auto;
-        padding: 20px;
-        line-height: 1.7;
-    }
-
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 40px;
-    }
-
-    .logo {
-        width: 260px;
-        height: auto;
-    }
-
-    .nav-menu {
-        display: flex;
-        gap: 50px;
-        align-items: center;
-    }
-
-    .nav-menu a {
-        color: #1a3d6d;
-        text-decoration: none;
-        font-weight: bold;
-    }
-</style>
-
-<header class="header">
-    <img src="logo-original-1000.png" alt="Canada Rippling Logo" class="logo">
-
-    <nav class="nav-menu">
-        <a href="index.html">Home</a>
-        <a href="business.html">Business</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Canada Rippling Information Technology Inc.</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             max-width: 1000px;
-            margin: 50px auto;
+            margin: 30px auto;
             padding: 20px;
             line-height: 1.7;
         }
 
-        nav {
-            margin-bottom: 30px;
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
         }
 
-        nav a {
+        .logo {
+            width: 260px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 75px;
+            align-items: center;
+        }
+
+        .nav-menu a {
             color: #1a3d6d;
             text-decoration: none;
+            font-size: 28px;
             font-weight: bold;
         }
 
@@ -77,6 +46,13 @@
         }
 
         .section {
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            color: #1a3d6d;
+            font-size: 52px;
+            line-height: 1.1;
             margin-bottom: 30px;
         }
 
@@ -96,21 +72,17 @@
 
         .hero-text {
             position: absolute;
-            left: 40px;
-            bottom: 40px;
+            top: 50px;
+            right: 50px;
+            width: 420px;
+            text-align: right;
             color: #1a3d6d;
-            max-width: 600px;
-        }
-
-        .hero-text h1 {
-            color: #1a3d6d;
-            font-size: 42px;
-            line-height: 1.1;
-            margin-bottom: 15px;
         }
 
         .hero-text p {
-            font-size: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 1.4;
             margin: 0;
         }
     </style>
@@ -118,33 +90,49 @@
 
 <body>
 
+<header class="header">
+    <img src="logo-original-1000.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<h1 class="main-title">
+    Canada Rippling Information Technology Inc.
+</h1>
+
 <div class="hero">
-    <img src="index-photo.jpg" alt="Data Center">
+    <img src="datacenter.jpg" alt="Data Center">
 
     <div class="hero-text">
-        <h1>Canada Rippling Information Technology Inc.</h1>
-        <p>Connecting Technology Infrastructure Across North America and Asia-Pacific</p>
+        <p>
+            Connecting Technology Infrastructure Across North America and Asia-Pacific
+        </p>
     </div>
 </div>
 
 <div class="section">
-<h2>Services</h2>
-<ul>
-<li>Data Center Advisory</li>
-<li>Technology Infrastructure Consulting</li>
-<li>Vendor Representation</li>
-<li>Supply Chain Support</li>
-<li>Market Entry & Business Development</li>
-</ul>
+    <h2>Services</h2>
+    <ul>
+        <li>Data Center Advisory</li>
+        <li>Technology Infrastructure Consulting</li>
+        <li>Vendor Representation</li>
+        <li>Supply Chain Support</li>
+        <li>Market Entry & Business Development</li>
+    </ul>
 </div>
 
 <div class="section">
-<h2>About</h2>
-<p>
-Canada Rippling Information Technology Inc. is a Canadian consulting company
-supporting clients in technology infrastructure, data centers, and
-cross-border business development.
-</p>
+    <h2>About</h2>
+    <p>
+        Canada Rippling Information Technology Inc. is a Canadian consulting company
+        supporting clients in technology infrastructure, data centers, and
+        cross-border business development.
+    </p>
 </div>
 
 </body>
