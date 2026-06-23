@@ -1,92 +1,100 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        max-width: 1000px;
-        margin: 30px auto;
-        padding: 20px;
-        line-height: 1.7;
-    }
-
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 40px;
-    }
-
-    .logo {
-        width: 260px;
-        height: auto;
-    }
-
-    .nav-menu {
-        display: flex;
-        gap: 50px;
-        align-items: center;
-    }
-
-    .nav-menu a {
-        color: #1a3d6d;
-        text-decoration: none;
-        font-weight: bold;
-    }
-</style>
-
-<header class="header">
-    <img src="logo-original-1000.png" alt="Canada Rippling Logo" class="logo">
-
-    <nav class="nav-menu">
-        <a href="index.html">Home</a>
-        <a href="business.html">Business</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-
 <!DOCTYPE html>
-
 <html>
+    
 <head>
-    <title>Business Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             max-width: 1000px;
-            margin: 50px auto;
+            margin: 30px auto;
             padding: 20px;
             line-height: 1.7;
+        }
 
-    h1 {
-        color: #1a3d6d;
-        margin-bottom: 30px;
-    }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
 
-    .services-grid {
+        .logo {
+            width: 260px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: #1a3d6d;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
+        }
+
+        h1 {
+            color: #1a3d6d;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .services-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
-    }
+        }
 
     .service-box {
         background-color: #f3f4f7;
         padding: 40px;
         border-radius: 8px;
         min-height: 260px;
-    }
+        }
 
     .service-box h2 {
         color: #1a3d6d;
         margin-top: 0;
         margin-bottom: 20px;
         font-size: 30px;
-    }
+        }
 
     .service-box p {
         font-size: 18px;
         line-height: 1.7;
-    }
-</style>
+        }
+
+    </style>
+</head>
+
+    
+<body>
+
+<header class="header">
+    <img src="logo-original-500.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
 
 </head>
 
@@ -102,7 +110,7 @@
     <h2>Prefabricated Data Center</h2>
 
     <p>
-        Prefabricated Data Center information
+        Delivering a 36 MW liquid-cooled data center globally within 6–9 months
     </p>
 </div>
 
@@ -110,7 +118,9 @@
     <h2>Wesco</h2>
 
     <p>
-        Wesco information
+        Electric fit out 
+        Data center parts ware house and logistic
+        Logistics and Warehousing for Data Center equipment
     </p>
 </div>
 
@@ -118,7 +128,7 @@
     <h2>Manufacturer</h2>
 
     <p>
-        Manufacturer information
+        Cooling system, transformers, fibers
     </p>
 </div>
 
