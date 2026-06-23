@@ -1,15 +1,54 @@
-<nav>
-    <a href="index.html">Home</a>
-    <a href="business.html">Business</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</nav>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        line-height: 1.7;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .logo {
+        width: 260px;
+        height: auto;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .nav-menu a {
+        color: #1a3d6d;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+
+<header class="header">
+    <img src="logo-original-1000.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
 
 <!DOCTYPE html>
+
 <html>
-    
 <head>
-    <title>About Us</title>
+    <title>Business Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,42 +56,74 @@
             margin: 50px auto;
             padding: 20px;
             line-height: 1.7;
-        }
 
-        nav {
-            margin-bottom: 30px;
-        }
+    h1 {
+        color: #1a3d6d;
+        margin-bottom: 30px;
+    }
 
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            color: #1a3d6d;
-            font-weight: bold;
-        }
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
 
-        h1 {
-            color: #1a3d6d;
-        }
-    </style>
+    .service-box {
+        background-color: #f3f4f7;
+        padding: 40px;
+        border-radius: 8px;
+        min-height: 260px;
+    }
+
+    .service-box h2 {
+        color: #1a3d6d;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .service-box p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+</style>
+
 </head>
+
 <body>
 
-h1>Business Services</h1>
+<header class="header">
+    <img src="logo-original-1000.png" alt="Canada Rippling Logo" class="logo">
 
-<h2>Data Center Advisory</h2>
-<p>Support for data center planning, infrastructure strategy, and industry engagement.</p>
+</header>
 
-<h2>Technology Infrastructure Consulting</h2>
-<p>Advisory services for technology infrastructure projects and deployments.</p>
+<h1>Business Services</h1>
 
-<h2>Vendor Representation</h2>
-<p>Business development support connecting technology vendors with potential customers and partners.</p>
+<div class="services-grid">
 
-<h2>Supply Chain Support</h2>
-<p>Assistance with sourcing, coordination, and international business relationships.</p>
+<div class="service-box">
+    <h2>Prefabricated Data Center</h2>
 
-<h2>Market Entry & Business Development</h2>
-<p>Support for companies seeking opportunities in North America and Asia-Pacific markets.</p>
+    <p>
+        Prefabricated Data Center information
+    </p>
+</div>
+
+<div class="service-box">
+    <h2>Wesco</h2>
+
+    <p>
+        Wesco information
+    </p>
+</div>
+
+<div class="service-box">
+    <h2>Manufacturer</h2>
+
+    <p>
+        Manufacturer information
+    </p>
+</div>
 
 </body>
 </html>
