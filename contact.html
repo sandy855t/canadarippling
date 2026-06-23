@@ -1,55 +1,138 @@
-<nav>
-    <a href="index.html">Home</a>
-    <a href="business.html">Business</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
 <!DOCTYPE html>
 <html>
-    
 <head>
     <title>About Us</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             max-width: 1000px;
-            margin: 50px auto;
+            margin: 30px auto;
             padding: 20px;
             line-height: 1.7;
         }
 
-        nav {
-            margin-bottom: 30px;
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
         }
 
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
+        .logo {
+            width: 260px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .nav-menu a {
             color: #1a3d6d;
+            text-decoration: none;
+            font-size: 18px;
             font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
         }
 
         h1 {
             color: #1a3d6d;
         }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            color: #1a3d6d;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        .contact-section {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        margin-top: 40px;
+        }
+        
+        .contact-text {
+        flex: 1;
+        }
+        
+        .contact-text p {
+        font-size: 20px;
+        line-height: 1.8;
+        }
+        
+        .contact-image {
+        flex: 1;
+        }
+        
+        .contact-image img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        display: block;
+        }
     </style>
 </head>
+
+    
 <body>
 
-<h1>Contact</h1>
+<header class="header">
+    <img src="logo-original-500.png" alt="Canada Rippling Logo" class="logo">
 
-<p>
-For business inquiries and partnership opportunities, please contact us:
-</p>
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    
+</header>
 
-<p>
-Email: info@canadarippling.com
-</p>
+<h1 class="main-title">
+    Canada Rippling Information Technology Inc.
+</h1>
 
-<p>
-Canada Rippling Information Technology Inc.
-</p>
+<h1>Contact Us</h1>
+
+<div class="contact-section">
+
+```
+<div class="contact-text">
+
+    <p>
+        For business inquiries, partnership opportunities, or further information about our services, please feel free to contact us. We look forward to hearing from you.
+    </p>
+
+    <p>
+        Email: biz@ripplinginfo.tech
+    </p>
+
+    <p>
+        Canada Rippling Information Technology Inc.
+    </p>
+
+</div>
+
+<div class="contact-image">
+    <img src="Envelope.jpg" alt="Contact">
+</div>
 
 </body>
 </html>
