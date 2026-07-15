@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 220px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: #1a3d6d;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
+        }
+
+        h1 {
+            color: #1a3d6d;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            color: #1a3d6d;
+            line-height: 1.1;
+            margin-bottom: 0px;
+        }
+
+        .contact-section {
+        display: flex;
+        align-items: center;
+        gap: 90px;
+        margin-top: -27px;
+        }
+        
+        .contact-text {
+        flex: 1;
+        }
+        
+        .contact-text p {
+        font-size: 16px;
+        line-height: 1.7;
+        }
+        
+        .contact-image {
+        flex: 1;
+        }
+        
+        .contact-image img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+        display: block;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 20px;
+            border-top: 1px solid #d9d9d9;
+            color: #666;
+            font-size: 14px;
+        }
+
+        a {
+            color: #1a3d6d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+    <img src="Logostarry.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    
+</header>
+
+<h1>Contact</h1>
+
+<div class="contact-section">
+
+<div class="contact-text">
+
+    <p>
+        For business inquiries, partnership opportunities, or further information about our services, please feel free to contact us. We look forward to hearing from you.
+    </p>
+
+    <p>
+        Email: <a href="mailto:biz@ripplinginfo.tech">biz@ripplinginfo.tech</a>
+    </p>
+
+    <p>
+        Canada Rippling Information Technology Limited
+    </p>
+
+</div>
+
+<div class="contact-image">
+    <img src="Envelope.png" alt="Contact">
+    </div>
+</div>
+
+<footer>
+    <p>
+        © 2026 Canada Rippling Information Technology Limited
+
+    </p>
+</footer>
+
+</body>
+</html>
