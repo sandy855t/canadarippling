@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 220px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: #1a3d6d;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
+        }
+
+        h1 {
+            color: #1a3d6d;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            margin-top: 30px;
+        }
+        
+        .service-box {
+            background-color: #f3f4f7;
+            padding: 35px;
+            border-radius: 8px;
+            min-height: 480px;
+        
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .service-box h2 {
+            color: #1a3d6d;
+            font-size: 24px;
+            line-height: 1.25;
+            margin: 0 0 25px 0;
+        }
+        
+        .service-box p {
+            font-size: 16px;
+            line-height: 1.2;
+            margin: 0 0 30px 0;
+        }
+        
+        .service-image {
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            display: block;
+            margin-top: auto;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 20px;
+            border-top: 1px solid #d9d9d9;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+    
+<body>
+
+<header class="header">
+    <img src="Logostarry.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="business.html" class="active">Business</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</head>
+
+<body>
+
+</header>
+
+<h1>Business Services</h1>
+
+<h2>In addition to our professional consulting services, we collaborate with industry-leading business partners to provide the following 
+    services: </h2>
+
+<div class="services-grid">
+
+<div class="service-box">
+    <h2>Prefabricated Data Centers</h2>
+
+    <p>
+        Delivering 36 MW liquid-cooled data center solutions globally within 6–9 months.</p>
+
+    <img src="Business1.png" alt="Business1" class="service-image">
+</div>
+
+<div class="service-box">
+    <h2>Supply Chain Solutions</h2>
+
+    <p>
+        Sourcing, procurement, logistics, and warehousing for data center projects.</p>
+    
+    <img src="Business2.png" alt="Business2" class="service-image">
+</div>
+
+<div class="service-box">
+    <h2>Manufacturing
+        <br>
+        &nbsp;</h2>
+
+    <p>
+        Cooling systems, transformers, fiber optics, and modular infrastructure components.</p>
+
+    <img src="Business3.png" alt="Business3" class="service-image">
+    </div>
+</div>
+
+<footer>
+    <p>
+        © 2026 Canada Rippling Information Technology Limited
+    </p>
+</footer>
+    
+</body>
+</html>
