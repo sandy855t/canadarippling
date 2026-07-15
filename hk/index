@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canada Rippling Information Technology Limited</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            line-height: 1.7;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 220px;
+            height: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .nav-menu a {
+            color: #1a3d6d;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        
+        .nav-menu a.active {
+            color: #2d5a9e;
+            border-bottom: 3px solid #2d5a9e;
+        }
+
+        h1 {
+            color: #1a3d6d;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .main-title {
+            color: #1a3d6d;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            margin: 30px 0;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            width: 420px;
+            text-align: right;
+            color: #1a3d6d;
+        }
+
+        .hero-text p {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 20px;
+            border-top: 1px solid #d9d9d9;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+    
+<body>
+
+<header class="header">
+    <img src="Logostarry.png" alt="Canada Rippling Logo" class="logo">
+
+    <nav class="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="business.html">Business</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+</header>
+
+<h1 class="main-title">
+    Canada Rippling Information Technology Limited
+</h1>
+
+<div class="hero">
+    <img src="Index.png" alt="Data Center">
+
+    <div class="hero-text">
+        <p>
+            Connecting Data Center Infrastructure Across North America and Asia-Pacific
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>
+        © 2026 Canada Rippling Information Technology Limited
+    </p>
+</footer>
+    
+</body>
+</html>
